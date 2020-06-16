@@ -1,10 +1,10 @@
 <?php
     
-    $host = "127.0.0.1";
-    $user = "nikosp";                     
+    $host = "";
+    $user = "";                     
     $pass = "";                                  
-    $db = "eett";                                  
-    $port = 3306;                            
+    $db = "";                                  
+    $port = ;                            
     
     $connection = mysqli_connect($host, $user, $pass, $db, $port)or die(mysql_error());
     ?>
